@@ -2,7 +2,9 @@
 
 ## Bootstrapping
 ```
-mkdir -p boilerplate && curl https://raw.githubusercontent.com/dustman9000/boilerplate/master/boilerplate/update.sh -o boilerplate/update.sh && chmod +x boilerplate/update.sh
+mkdir -p boilerplate && \
+curl https://raw.githubusercontent.com/dustman9000/boilerplate/master/boilerplate/update.sh -o boilerplate/update.sh && \
+chmod +x boilerplate/update.sh
 ```
 
 Create boilerplate/update.cfg with desired "conventions":
