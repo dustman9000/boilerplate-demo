@@ -2,7 +2,7 @@
 
 # WARNING: THIS FILE IS MANAGED IN THE 'BOILERPLATE' REPO AND COPIED TO OTHER REPOSITORIES.
 # ONLY EDIT THIS FILE FROM WITHIN THE 'LYFT/BOILERPLATE' REPOSITORY:
-# 
+#
 # TO OPT OUT OF UPDATES, SEE https://github.com/lyft/boilerplate/blob/master/Readme.rst
 
 set -e
@@ -22,7 +22,7 @@ README="https://github.com/lyft/boilerplate/blob/master/Readme.rst"
 
 if [ ! -f "$CONFIG_FILE" ]; then
   echo "$CONFIG_FILE not found."
-  echo "This file is required in order to select which features to include." 
+  echo "This file is required in order to select which features to include."
   echo "See $README for more details."
   exit 1
 fi
